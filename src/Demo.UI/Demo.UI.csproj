@@ -76,5 +76,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj">
+      <Project>{433b4492-eb89-4b37-8dfe-1623e7adb493}</Project>
+      <Name>Demo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.Extensions\Demo.Extensions.csproj">
+      <Project>{ecc87bbc-c2b2-41f3-9406-ab932496ea26}</Project>
+      <Name>Demo.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.UI.Component\Demo.UI.Component.csproj">
+      <Project>{4f1c46d3-b217-4447-9b02-430104db2fdb}</Project>
+      <Name>Demo.UI.Component</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
